@@ -1,0 +1,65 @@
+/*----------- Main Section Blocks -----------*/
+
+* {
+  box-sizing: border-box; 
+}
+
+body{
+	margin: 0 auto;
+	background:blue;
+}
+
+header{
+	width: 100%;
+	padding: 40px 0;
+	margin: 0 auto;
+	background:green;
+}
+
+#wrapper {
+	padding:5%;
+	margin: 0 auto;
+	max-width: 80%;
+	background:white;
+}
+
+#logo {
+	text-align: center;
+	width: 100%;
+	clear:both;
+	margin: 0;
+	/*padding:5%;*/
+	display: inline-block;
+}
+
+header ul {
+	text-align:center;
+	margin:0;
+}
+
+header ul li {
+
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding:15px 10px;
+
+}
+
+a {
+	text-decoration: none;
+	color:#fff;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	margin:0;
+}
+
+/*----------- Navigation -----------*/
+
+nav{
+	width:100%;
+	margin:0 0 0 -5%;
+
+}
+

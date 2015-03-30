@@ -1,0 +1,499 @@
+/*************************
+Fonts
+**************************/
+@font-face {
+    font-family: 'league_spartanregular';
+    src: url('fonts/LeagueSpartan-Bold-webfont.eot');
+    src: url('fonts/LeagueSpartan-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/LeagueSpartan-Bold-webfont.woff2') format('woff2'),
+         url('fonts/LeagueSpartan-Bold-webfont.woff') format('woff'),
+         url('fonts/LeagueSpartan-Bold-webfont.ttf') format('truetype'),
+         url('fonts/LeagueSpartan-Bold-webfont.svg#league_spartanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*************************
+General Styling
+**************************/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin:0 auto;
+  height:auto;
+  background-color:#FFC946;
+}
+
+
+#contact_bg {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  background: linear-gradient(#111, transparent 99%),
+  linear-gradient(0deg, #fff, transparent),
+  url('images/CF2.png') no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+  overflow:hidden;
+}
+
+#wrapper {
+	max-width: 940px; 
+	margin: 0 auto;
+  padding: 6% 5%;
+  overflow:hidden;
+	}
+	
+	a {
+ text-decoration: none;
+
+}
+/*img {
+ max-width: 100%;
+}*/
+
+#wrapper p a {color:steelblue;}
+
+/*************************
+Header Styling
+**************************/
+.main-header {
+  margin: -21px 0 0 0;
+  height:160px;
+  padding:50px 0;
+  width:100%; 
+  background-color:#FFC946;
+  z-index: 100;
+  overflow:hidden;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+  border-bottom:8px solid #FFE89F;         
+}
+
+#logo {
+  float:left;
+  width:180px;
+  position:relative;
+  bottom:20px;
+  /*padding-bottom:25px;*/  
+}
+#logo img {
+  width:160px;
+}
+
+
+/*************************
+Navigation Styling
+**************************/
+
+
+/* all nav link colors*/
+nav a {color:#f04d4d;}
+
+nav {
+	float: right;
+	margin-top:50px;
+  margin-right:60px ;
+  
+}
+
+nav ul li {
+	display: inline-block;
+/*	margin: 0 0 0 30px;*/
+	padding: 5px;
+  text-transform:uppercase;
+	font-family: 'league_spartanregular';
+	font-size: .8em;
+	
+}
+
+nav a:hover {
+	color:#7F0700;
+}
+
+/* selected nav link color */
+nav a.selected {
+  color: #7F0700;
+}
+
+
+/*************************
+Equipment Page Styling
+**************************/
+
+#prods_bg {
+  background-color:#FFE89F;
+
+}
+.equipment li h1{
+  font-family:'league_spartanregular';
+  font-size:15px;
+  position:relative;
+  bottom:55px;
+}
+
+.equipment{
+width:100%;
+}
+.equipment ul li {
+  list-style: none;
+
+}
+
+.equipment li {
+  float:left;
+  background-color:#E5BB58;
+  border:1px solid #fff;
+  width:30%;
+  margin:1%;
+  height:275px;
+  padding:2%;
+  margin-right:5px;
+  margin-bottom: 50px;
+}
+
+/*************************
+Section: Page: Index
+**************************/
+
+/*#gallery { margin: 0;
+  padding: 150px 0;
+  list-style: none;
+
+}
+
+#gallery li {
+  float: left;
+  width:30%;
+  margin: 1%;
+  background-color: #f5f5f5;
+  color: #999;
+
+}
+
+
+#gallery li a p {
+ margin: 0;
+  padding:5%;
+  font-size: 0.75em;
+  color: #999;
+}*/
+
+/*h1 {
+	text-align: center;
+  font-family: 'league_spartanregular';
+  color:#fff;
+  font-size:2.6em;
+  margin: 0;
+  margin-bottom:-30px;
+}*/
+
+section { 
+  width:100%; 
+/*  padding-left:100px;*/
+  margin-right: auto;
+  margin-left: auto;
+  padding:15% 0;
+
+}
+
+.home_width h1 {
+  text-align: center;
+  font-family: 'league_spartanregular';
+  color:#fff;
+  font-size:1.6em;
+  margin-top:0;
+  margin-bottom:0;
+  padding: 0px 50px 40px 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+section p {
+font-family: 'Helvetica';
+line-height: 1.7;
+font-size:1.1em;
+color:#fff;
+letter-spacing: 1px;
+margin:0;
+}
+
+footer p {
+  color:#000;
+}
+
+
+
+/*************************
+Footer
+**************************/
+
+footer {
+  float:left;
+  padding:60px 0;
+  text-align: center;
+  width: 100%;
+  background-color:#FFC946;
+  /*position: relative;
+  bottom:0;*/
+  margin:0 auto;
+}
+
+/*************************
+home styles
+**************************/
+
+.home_width {
+  width:70%;
+}
+
+#bghome {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  background: linear-gradient(#333, transparent 80%),
+  linear-gradient(0deg, #111, transparent),
+  url('images/construction_site_web.png') no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+}
+
+/* Gallery Container ------------------ */
+
+/*.gallery_container {
+width: 70%;
+float:right;
+} */
+
+
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 768px) {
+
+  nav, nav ul, nav ul li {
+   display:inline;
+  }
+}
+
+
+
+/* CONTACT FORM CSS IS BELOW
+/////////////////////////////////////*/
+
+form {position:relative; right:45px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE6/7/8/9.
+ * 2. Corrects text not wrapping in FF3.
+ * 3. Corrects alignment displayed oddly in IE6/7.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0;
+    white-space: normal; /* 2 */
+    *margin-left: -7px; /* 3 */
+}
+
+/*
+ * 1. Corrects font size not being inherited in all browsers.
+ * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome.
+ * 3. Improves appearance and consistency in all browsers.
+ */
+
+button,
+input,
+select,
+textarea {
+     /* 1 */
+    margin: 0; /* 2 */
+    vertical-align: baseline; /* 3 */
+    *vertical-align: middle; /* 3 */
+}
+
+/*
+ * Addresses FF3/4 setting `line-height` on `input` using `!important` in the
+ * UA stylesheet.
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Removes inner spacing in IE7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE6.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+    *overflow: visible;  /* 4 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to content-box in IE8/9.
+ * 2. Removes excess padding in IE8/9.
+ * 3. Removes excess padding in IE7.
+ *    Known issue: excess padding remains in IE6.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+    *height: 13px; /* 3 */
+    *width: 13px; /* 3 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in S5, Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in S5, Chrome (include `-moz`
+ *    to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in S5, Chrome on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in FF3+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE6/7/8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+form {width: 305px; margin-top: 15px; margin-bottom: 15px;  }
+form tr {
+    border: 1px solid #CCC;
+    background: #f4f3f2;
+}
+form table {width: 400px; margin-bottom: 16px;}
+form th {
+    width: 85px;
+    border-right: 1px solid #CCC;
+
+    padding: 8px;
+}
+form td {
+    padding: 25px 25px;
+}
+form td select,
+form td input,
+form td textarea {
+    width: 100%;
+}
+form input[type="submit"] {
+  margin-left: 100px;
+    margin-right: auto;
+    width: 200px;
+    text-align: center;
+    border: 3px solid #7E0000;
+    background: #EF474D;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
